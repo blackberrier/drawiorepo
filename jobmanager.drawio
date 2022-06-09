@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T05:47:03.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bDHgLqgVc3beCkJw_Gnp" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T08:36:05.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KuRxYKkFteIQE8HYe7p4" version="19.0.2" type="github">
   <diagram id="mZfhixNXZOIVuUxZR6Ya" name="第 1 页">
     <mxGraphModel dx="2500" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -607,7 +607,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U4pfXmnAAEifF3LVyMeD-16" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2430" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="2440" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U4pfXmnAAEifF3LVyMeD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-19" target="U4pfXmnAAEifF3LVyMeD-15">
           <mxGeometry relative="1" as="geometry">
@@ -756,6 +756,164 @@
         </mxCell>
         <mxCell id="U4pfXmnAAEifF3LVyMeD-80" value="将执行实例加入内存队列中，等待下发线程取队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="3330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-85" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2640" width="20" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-85">
+          <mxGeometry x="5" y="80" width="10" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-86" value="bdms#&lt;br&gt;AzkabanService#&lt;br&gt;executeSchedule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2640" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-86">
+          <mxGeometry x="45" y="100" width="10" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-86">
+          <mxGeometry x="50" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-94" value="解析参数&lt;br&gt;权限校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-93" parent="U4pfXmnAAEifF3LVyMeD-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-86">
+          <mxGeometry x="50" y="302" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-103" value="设置调度参数&lt;br&gt;设置执行参数" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-102" parent="U4pfXmnAAEifF3LVyMeD-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="282" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-123" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.324;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-86" target="U4pfXmnAAEifF3LVyMeD-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="810" as="sourcePoint" />
+            <mxPoint x="-35" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-92" value="http请求&lt;br&gt;/v1/azkaban/flow/scheduleall" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.033;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-87" target="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="730" y="2740" as="sourcePoint" />
+            <mxPoint x="810" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-95" value="bdms#&lt;br&gt;database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="2640" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-95">
+          <mxGeometry x="45" y="730" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-96" value="Azkaban#&lt;br&gt;scheduleservlet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="2640" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry x="44" y="203" width="10" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry x="44" y="370" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry x="49" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-111" value="检查schedule合法性&lt;br&gt;schedule转trigger" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-110" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-118" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry x="49" y="630" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-119" value="保存schedule信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-118" parent="U4pfXmnAAEifF3LVyMeD-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-97" value="Azkaban#&lt;br&gt;database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2640" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-97">
+          <mxGeometry x="45" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-97">
+          <mxGeometry x="45" y="530" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-98" value="Azkaban#&lt;br&gt;TriggerManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2640" width="100" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-98">
+          <mxGeometry x="45" y="510" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-100" value="/schedule?ajax=fetchSchedule" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.055;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-99" parent="1" source="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="2843" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-101" value="返回当前是否有调度" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.933;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-99" parent="1" target="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="2919" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-105" value="/schedule?ajax=scheduleFlow1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.297;exitY=0.38;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-104" parent="1" source="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="3010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-106" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.999;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-104" parent="1" target="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="3086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-108" value="读projects表，获取project" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1;exitY=0.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-107" parent="1" source="U4pfXmnAAEifF3LVyMeD-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="3019" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-109" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-107" parent="1" target="U4pfXmnAAEifF3LVyMeD-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="3096" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-113" value="insert trigger" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.013;exitY=0.399;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-112" parent="1" source="U4pfXmnAAEifF3LVyMeD-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="3150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-114" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.02;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-112" parent="1" target="U4pfXmnAAEifF3LVyMeD-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="3227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-117" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;entryX=-0.022;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-115" parent="1" target="U4pfXmnAAEifF3LVyMeD-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-116" value="把trigger信息写trigger表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;exitX=-0.006;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-115" parent="1" source="U4pfXmnAAEifF3LVyMeD-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="3170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-121" value="将schedule信息写pf_az_schedule表&lt;br&gt;包括当前schedule及历史schedule" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.195;exitY=0.889;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-120" parent="1" source="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="3370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-122" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.195;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-120" parent="1" target="U4pfXmnAAEifF3LVyMeD-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="3446" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
