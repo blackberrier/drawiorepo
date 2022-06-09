@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T08:36:05.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KuRxYKkFteIQE8HYe7p4" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T09:23:32.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tQlT8TOtFcFCPWY8o8TV" version="19.0.2" type="github">
   <diagram id="mZfhixNXZOIVuUxZR6Ya" name="第 1 页">
-    <mxGraphModel dx="2500" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3412" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-174" value="parseProjectFile" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2743" width="280" height="217" as="geometry" />
+        </mxCell>
         <mxCell id="lOgmBhLKBQTDchqgfmT8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.665;exitY=-0.001;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitPerimeter=0;entryX=0.443;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lOgmBhLKBQTDchqgfmT8-13" target="lOgmBhLKBQTDchqgfmT8-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439" y="182" as="targetPoint" />
@@ -913,6 +916,187 @@
         <mxCell id="U4pfXmnAAEifF3LVyMeD-122" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.195;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-120" parent="1" target="U4pfXmnAAEifF3LVyMeD-88">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1005" y="3446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-124" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="2190" width="20" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-124">
+          <mxGeometry x="5" y="80" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-126" value="bdms#&lt;br&gt;AzkabanService#&lt;br&gt;modifyFlow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2228" y="2190" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-126">
+          <mxGeometry x="45" y="100" width="10" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-128" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-126">
+          <mxGeometry x="50" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-129" value="解析参数&lt;br&gt;合法性校验&lt;br&gt;权限校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-126" target="U4pfXmnAAEifF3LVyMeD-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-163" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-126">
+          <mxGeometry x="50" y="510" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-164" value="解析project文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-163" parent="U4pfXmnAAEifF3LVyMeD-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-133" value="http请求&lt;br&gt;/v1/azkaban/flow/modify" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.033;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.972;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-125" target="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2088" y="2290" as="sourcePoint" />
+            <mxPoint x="2168" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-134" value="bdms#&lt;br&gt;database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2388" y="2190" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-135" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-134">
+          <mxGeometry x="45" y="570" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-134">
+          <mxGeometry x="45" y="203" width="10" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-160" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-134">
+          <mxGeometry x="45" y="290" width="10" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-161" value="从pf_azproject_file表中&lt;br&gt;获取projectfile&lt;br&gt;写成zip包并解压" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.14;entryY=0.021;rounded=0;exitX=1.055;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" target="U4pfXmnAAEifF3LVyMeD-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-104.45000000000027" y="291.3699999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-162" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.02;exitY=0.889;rounded=0;entryX=0.933;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" source="U4pfXmnAAEifF3LVyMeD-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105.66999999999962" y="333.25999999999976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-168" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-134">
+          <mxGeometry x="45" y="630" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-169" value="写入pf_azjob_def" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.133;exitY=0.662;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" target="U4pfXmnAAEifF3LVyMeD-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-103.66999999999962" y="630.02" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-170" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1;entryY=0.715;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" source="U4pfXmnAAEifF3LVyMeD-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105" y="667.6500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-171" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-134">
+          <mxGeometry x="45" y="713" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-172" value="job文件压缩，&lt;br&gt;写入pf_azproject_file" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.133;exitY=0.662;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" target="U4pfXmnAAEifF3LVyMeD-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-103.66999999999962" y="713.02" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-173" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1;entryY=0.715;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-134" source="U4pfXmnAAEifF3LVyMeD-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105" y="750.6500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-136" value="bdms#&lt;br&gt;AzJobMananger" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2549" y="2190" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-138" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-136">
+          <mxGeometry x="44" y="370" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-139" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="U4pfXmnAAEifF3LVyMeD-136">
+          <mxGeometry x="49" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-140" value="根据job类型，设置prop参数&lt;br&gt;根据dependence，设置prop参数&lt;br&gt;新建作业的.job文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="U4pfXmnAAEifF3LVyMeD-136" target="U4pfXmnAAEifF3LVyMeD-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-143" value="Azkaban#&lt;br&gt;Webserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2708" y="2190" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-148" value="从pf_az_config表中获取config" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.14;entryY=0.021;rounded=0;exitX=1.06;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-127" target="U4pfXmnAAEifF3LVyMeD-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2523" y="2393" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-149" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.02;exitY=0.889;rounded=0;entryX=0.98;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-137" target="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2523" y="2469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-150" value="modifyFlow()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.1;exitY=0.292;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-127" target="U4pfXmnAAEifF3LVyMeD-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2288" y="2560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-151" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.14;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-138" target="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2523" y="2636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-158" value="写入pf_azflow_def" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.06;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-127" target="U4pfXmnAAEifF3LVyMeD-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2284.9500000000003" y="2761.1899999999996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-159" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1;entryY=0.554;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-135" target="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2284.9500000000003" y="2836.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-181" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2753" y="3000" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-182" value="/mananger?ajax=upload上传任务包到azkaban" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.25;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-181" parent="1" source="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2683" y="3000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-183" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.7;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="U4pfXmnAAEifF3LVyMeD-181" parent="1" target="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2683" y="3076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-132" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.324;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="U4pfXmnAAEifF3LVyMeD-125" source="U4pfXmnAAEifF3LVyMeD-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2273" y="3000" as="sourcePoint" />
+            <mxPoint x="2193" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-175" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2433" y="3130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-176" value="在pf_azjob_status添加状态&lt;br&gt;修改更新时间" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.133;exitY=0.662;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="U4pfXmnAAEifF3LVyMeD-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2284.3300000000004" y="3130.02" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-177" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1;entryY=0.715;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U4pfXmnAAEifF3LVyMeD-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2283" y="3167.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-186" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2758" y="3040" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4pfXmnAAEifF3LVyMeD-187" value="解析文件，参数校验，projectversion+1&lt;br&gt;插入到project_files表&lt;br&gt;插入到project_versions表&lt;br&gt;把flow信息写入project_flows表&lt;br&gt;写project_properties表&lt;br&gt;更新projects表version字段&lt;br&gt;插入project_resources表" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U4pfXmnAAEifF3LVyMeD-186" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2763" y="3020" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2793" y="3020" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
